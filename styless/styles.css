@@ -1,0 +1,11 @@
+body{
+    background-color: aqua;
+    background-image: url("../images/pic.png");
+    background-position: top left;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+p{
+    background-color: blanchedalmond;
+    letter-spacing: 5px;
+}
