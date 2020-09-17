@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Demo</title>
+</head>
+<body>
+
+<fieldset>
+    <legend align= "right"> Registration Form</legend>
+    
+<form action="demo.html" method="post" name="myform">
+<table border="1" align="center" width="600">
+<tr>
+<th>Enter your first name</th>
+<td><input type="text" title="enter your first name" placeholder="enter your first name"></td>
+</tr>
+
+<tr>
+<th>Enter your password</th>
+<td><input type="password" placeholder="enter your password"></td>
+</tr>
+
+<tr>
+<th>Re-Enter your password</th>
+<td><input type="password" placeholder="enter your password"></td>
+</tr>
+
+<tr>
+<th>Gender</th>
+<td><input type="radio" name="r1" value="Male">Male <input type="radio" name="r1" value="Female" checked>Female</td>
+</tr>
+
+<tr>
+<th>Hobbies</th>
+<td><input type="checkbox" name="hobby" value="0">Sports
+	<input type="checkbox" name="hobby" value="1">Music
+	<input type="checkbox" name="hobby" value="2">Dance
+    <input type="checkbox" name="hobby" value="3">Drawing
+</td>
+</tr>
+
+<tr>
+<th>Select Language</th>
+<td>
+    <select name="lang" id="lang">
+    <option value="" selected="selected" disabled="disabled">Select</option>
+    <option value="Java">Java</option>
+    <option value="Hibernate">Hibernate</option>
+    <option value="HTML">HTML</option>
+    <option value="Spring">Spring</option>
+</select></td>
+</tr>
+
+<tr>
+<th>Select your DOB</th>
+<td><input type="date"/></td>
+</tr>
+
+<tr>
+<th>Select your Country</th>
+<td>
+<select name="country">
+<option value="" selected="selected" disabled="disabled">Select your country</option>
+<option value="1">India</option>
+<option value="2">USA</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<th>Upload your pic</th>
+<td><input type="file"/></td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Save My Data">
+<input type="reset" value="Reset Data">
+</td>
+</tr>
+
+</table>
+</form>
+</fieldset>
+</body>
+</html>

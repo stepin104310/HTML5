@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src = "..\images\pic.png" alt = "logo" >\
+
+    <form method="GET" action="demo.html">
+    <h1> Datalist </h1>
+    Choose city <input list="city" name = "mcity">
+    <datalist id = "city">
+        <option value="Kolkata"></option>
+        <option value="Bangalore"></option>
+        <option value="Delhi"></option>
+        <option value="Mysore"></option>
+    </datalist>
+
+    <h1>Selct</h1>
+    <select name="city">
+        <option value="Kolkata"></option>
+        <option label="Bangalore" value = "karnataka"></option>
+        <option value="Delhi"></option>
+        <option value="Mysore"></option>
+
+    </select>
+
+    <button value="submit" name ="submit">Submit</button>
+
+    <input type="number" name = "num1">
+    <input type= "number" name="num2">
+    <input type="button" value="add" onclick="result.value = parseInt(num1.value) + parseInt(num2.value)">
+    <output name = "result"></output> 
+    </form>
+</body>
+</html>
