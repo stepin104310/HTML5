@@ -1,0 +1,19 @@
+h1 {
+  background-color: crimson;
+  letter-spacing: 5px;
+  color: cyan;
+  text-transform: uppercase;
+  color: darkkhaki;
+}
+
+h2 {
+  background-color: crimson;
+  letter-spacing: 5px;
+  color: cyan;
+  text-transform: uppercase;
+}
+
+p {
+  background-color: bisque;
+  color: purple;
+}

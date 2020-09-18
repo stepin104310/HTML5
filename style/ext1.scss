@@ -1,0 +1,20 @@
+$bgcolor:red;
+$color: yellow;
+$text:uppercase;
+$texting: lowercase
+
+h2{
+    background-color: $bgcolor;
+    color: $color;
+    text-transform: $text;
+}
+p{
+    color: $bgcolor;
+    background-color: $color;
+    text-decoration: $text;
+}
+
+#pop {
+    text-decoration:$texting ;
+}
+

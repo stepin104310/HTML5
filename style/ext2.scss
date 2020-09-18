@@ -1,0 +1,17 @@
+$bgcolor: red;
+$color : yellow;
+$etxt: uppercase;
+
+h3{
+    $bgcolor: purple;
+    background-color: $bgcolor;
+    color: $color;
+}
+p{
+    $color: green !global;
+    color: $color;
+}
+h4{
+    background-color: $bgcolor;
+    color: $color;
+}
